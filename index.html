@@ -7,64 +7,79 @@
   <title>Portfolio Perez Matias</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <nav>
-    <div id="profile-img"><img src="resources/programmer.png" alt="Profile picture"></div>    
-    <button id="name-btn">Perez Matias</button>
-    <ul>
-      <li><button class="nav-bar-btn">About</button></li>
-      <li><button class="nav-bar-btn">Projects</button></li>
-      <li><button class="nav-bar-btn">Contact</button></li>
-      <li><button id="login-btn">Login</button></li>
-    </ul>
-    <img src="" alt="Argentina Programa logo">
-  </nav>  
-  <!-- About -->
-  <section>
-    <h1 class="title">Me, Myself and I</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis esse doloribus sint eum iure modi quaerat officiis magni voluptates quidem corporis, pariatur odit repellat excepturi provident maiores deserunt in!</p>
-    <div>
-      <ol>
-        <li>HTML</li>
-        <li>JS</li>
-        <li>C#</li>
-        <li>Backend</li>
-      </ol>
-      <div id="tech-tags-img">
-        <img src="" alt="Various technologies tags">
-      </div>
-    </div>
-    
-  </section>
-  <!-- Projects -->
-  <section>
-    <h1 class="title">Projects</h1>
-    <div id="project-tags">
-      <ol>
-        <li>Filter 1</li>
-        <li>Filter 2</li>
-        <li>Filter 3</li>
-        <li>Filter 4</li>
-        <li>Filter 5</li>
-      </ol>
-    </div>
-    
-    <div id="project-section">
-      <h1 id="project-title">Project 1</h1>
-      <p id="project-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed tempora doloremque atque quibusdam assumenda cumque in. Quod voluptatibus error labore nihil expedita quasi, odit laborum id debitis a nulla?</p>
-      <button id="project-btn1">View Source</button>
-      <button id="project-btn2">Live Demo</button>
-      <div id="project-img"><img src="" alt="Project image"></div>      
-    </div>
-  </section>
-  <!-- Contact -->
-  <footer>
-    <h1 class="title">Contact Me</h1>
-    <div id="contact-links">
-      <button>Mail</button>
-      <button>LinkedIn</button>
-      <button>Github</button>
-    </div>    
-  </footer>
+<!-- Nav bar -->
+<nav class="nav-bar">
+  <div>
+    <img src="resources/programmer.png" alt="Profile picture" id="img-profile">
+    <a class="active" href="#home">Perez Matias</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <img src="resources/argp-logo.png" alt="Argentina Programa logo" id="img-ARPlogo">
+  </div>
+</nav>
+<!-- About -->
+<section id="section-about">
+  <h1 class="title">Me, Myself and I</h1>
+  <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate natus debitis voluptatibus quis quisquam praesentium porro tenetur, expedita vitae necessitatibus soluta fugiat laborum quos quam tempora sint, delectus, sed officiis.</p>
+  <div id="skill1" class="about-skills">
+    <h1>1</h1>
+    <h2>HTML & CSS</h2>
+    <p>Interactive Esperiences & Responsive Layouts</p>
+    <img src="resources/html-5.png" alt="HTML5 logo">
+    <img src="resources/css-3.png" alt="CSS logo">
+  </div>
+  <div id="skill2" class="about-skills">
+    <h1>2</h1>
+    <h2>JavaScript</h2>
+    <p>Frontend Development & Single-Page Apps</p>
+    <img src="resources/js.png" alt="JS logo">
+    <img src="resources/spring.png" alt="Springboot logo">
+    <img src="resources/Angular.png" alt="Angular logo">
+  </div>
+  <div id="skill3" class="about-skills">
+    <h1>3</h1>
+    <h2>C#</h2>
+    <p>.NET Framework Development Solutions</p>
+    <img src="resources/c-sharp.png" alt="C# logo">
+    <img src="resources/visual-basic.png" alt="Visual Studio logo">
+  </div>
+  <div id="skill4" class="about-skills">
+    <h1>4</h1>
+    <h2>Backend</h2>
+    <p>Content Managment Systems &  Dynamic Websites</p>
+    <img src="resources/sql-server.png" alt="SQL server logo">
+    <img src="resources/mysql.png" alt="MySQL logo">
+  </div>
+</section>
+<!-- Projects -->
+<section id="section-projects">
+  <h1 class="title">Projects</h1>
+  <div id="projects-filters">
+    <button id="btn1">JavaScript</button>
+    <button id="btn2">HTML&CSS</button>
+    <button id="btn3">C#</button>
+    <button id="btn4">SQL</button>
+    <button id="btn5">Springboot</button>
+    <button id="btn6">Angular</button>
+  </div>
+  <div class="project-card">
+    <h1></h1>
+    <div></div>
+    <p></p>
+    <button id="link1">View Source <img src="resources/github2.png" alt="Github cat"></button>
+    <button id="link2">Live demo <img src="resources/link2.png" alt="Link image"></button>
+    <img src="" alt="Project image">
+  </div>
+</section>
+<!-- Contact Me -->
+<footer id="section-footer">
+  <h1 class="title">Contact Me</h1>    
+  <ul id="contact-links">
+    <li>LinkedIn <img src="resources/linkedin.png" alt="Linkedin logo"></li>
+    <li>contacto@perezmatias.com <img src="resources/email.png" alt="Mail logo"></li>
+    <li>Github <img src="resources/github.png" alt="Github logo"></li>
+  </ul>    
+</footer>
 </body>
 </html>
