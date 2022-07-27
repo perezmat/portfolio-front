@@ -19,5 +19,8 @@
   "homepage": "https://github.com/perezmat/portfolio-front#readme",
   "devDependencies": {
     "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
   }
 }
