@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/perezmat/portfolio-front/issues"
   },
-  "homepage": "https://github.com/perezmat/portfolio-front#readme"
+  "homepage": "https://github.com/perezmat/portfolio-front#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
 }
