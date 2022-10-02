@@ -9,40 +9,93 @@
   <link rel="stylesheet" href="scss/main.scss">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Perez Matias</a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <a class="navbar-brand" href="#">
+        <img src="https://i.picsum.photos/id/174/200/200.jpg?hmac=drl_DcYoPvaGCAF7hzG6zjvSnt77TUxwZFQz_-FDLuI" alt="Avatar logo" class="rounded-pill" style="width: 60px;">
+      </a>
+      <div class="container-sm">
+        <a class="navbar-brand" href="#" >Perez Matias</a>
+      </div>
+      <div class="container-sm">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a href="#" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a href="#" class="nav-link">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Login</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
-  
+  <!-- About Me -->
+  <div class="container-fluid pt-5">
+    <h1 class="text-center pb-3">Me, Myself and I</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque dignissimos dolores non itaque iure vitae. Reiciendis quaerat hic animi tempore! consectetur adipisicing elit. Eaque dignissimos dolores non itaque iure vitae. Reiciendis quaerat hic animi tempore Consequuntur, nulla rerum explicabo similique quidem libero earum ab iusto!</p>
+    <div class="container-fluid">
+      <table class="table table-hover table-color-light">
+        <tbody>
+          <tr class="bg-light"><!-- 1 -->
+            <td style="color:#6AB8C8;" class="display-6 pt-2 text-center">1.</td>
+            <td class="pt-4 text-left">HTML & CSS</td>
+            <td class="pt-4 text-left" style="color: #93999c;">Interactive Experiences & Responsive Layouts</td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="HTML Logo"></td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="HTML Logo"></td> 
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="HTML Logo"></td>           
+          </tr>
+          <tr class="bg-light"><!-- 2 -->
+            <td style="color:#FCDC73;" class="display-6 pt-2 text-center">2.</td>
+            <td class="pt-4 text-left">JavaScript</td>
+            <td class="pt-4 text-left" style="color: #93999c;">Frontend Development & Single-Page Apps</td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="JS Logo"></td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="HTML Logo"></td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="HTML Logo"></td>
+          </tr>
+          <tr class="bg-light"><!-- 3 -->
+            <td style="color:#193948;" class="display-6 pt-2 text-center">3.</td>
+            <td class="pt-4 text-left">C#</td>
+            <td class="pt-4 text-left" style="color: #93999c;">.NET Framework Development Solutions</td>
+            <td></td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt=".NET Logo"></td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="HTML Logo"></td>
+          </tr>
+          <tr class="bg-light"><!-- 4 -->
+            <td style="color:#E76268;" class="display-6 pt-2 text-center">4.</td>
+            <td class="pt-4 text-left">Backend</td>
+            <td class="pt-4 text-left" style="color: #93999c;">Content Management Systems & Dynamic Websites</td>
+            <td></td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="SQL Logo"></td>
+            <td class="text-center"><img class="img-fluid rounded" src="https://via.placeholder.com/50" alt="HTML Logo"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- Work -->
+  <div class="container-fluid">
+    <h1 class="text-center pb-3">Projects</h1>
+    <ul class="Navbar nav-pills nav-justified">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Menu 1</a></li>
+      <li><a href="#">Menu 2</a></li>
+      <li><a href="#">Menu 3</a></li>
+    </ul>
+  </div>
+  <!-- Contact -->
+  <div class="container container-fluid">
+    <h1 class="text-center pb-3">Contact Me</h1>
+  </div>
+    <ul class="nav nav-pills">
+
+    </ul>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>
